@@ -29,7 +29,6 @@ public class BrowserActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_main);
         fm = getSupportFragmentManager();
         Fragment tmpFragment;
-
         if ((tmpFragment = fm.findFragmentById(R.id.page_control_layout)) instanceof PageControlFragment) {
             controlFrag = (PageControlFragment) tmpFragment;
         }
